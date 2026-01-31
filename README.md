@@ -3,9 +3,9 @@
 A lightweight real-time audio visualizer with WebSocket-based audio streaming, built using Spring Boot and a minimal frontend.
 The application captures microphone input and renders a circular audio visualization in real time.
 
-## ⚠️ Note: Speech-to-text transcription logic is not fully integrated on the UI and is documented as a known limitation in QA reports.
+## Note: Speech-to-text transcription logic is not fully integrated on the UI and is documented as a known limitation in QA reports.
 
-## ✨ Features
+## Features
 
 Real-time microphone capture
 
@@ -17,7 +17,7 @@ Backend-ready transcription pipeline (UI integration pending)
 
 Minimal and lightweight implementation (~200 lines)
 
-## 📁 Project Structure
+## Project Structure
 
 real-time-audio-transcription/
 ├── frontend/
@@ -37,7 +37,7 @@ real-time-audio-transcription/
 │   └── Test_Summary_Report.md
 └── README.md
 
-## 🚀 Quick Start
+## Quick Start
 Backend (Spring Boot)
 cd backend
 ./mvnw spring-boot:run
@@ -61,7 +61,7 @@ Open in browser:
 
 http://localhost:3000
 
-## 🔧 How It Works
+## How It Works
 
 Browser captures microphone audio using the Web Audio API
 
@@ -73,11 +73,11 @@ Frontend renders a real-time circular audio visualizer
 
 Transcription UI output is not yet displayed (tracked via QA)
 
-## 🧪 QA Documentation
+## QA Documentation
 
 Manual QA documentation including test plan, test scenarios, test cases, bug reports, and test summary is available in the QA-Automation folder.
 
-## 📌 Requirements
+## Requirements
 
 Java 17+
 
